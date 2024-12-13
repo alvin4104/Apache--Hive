@@ -1,0 +1,3 @@
+SELECT country, SUM(price * quantity) AS total_revenue
+FROM sales_data
+GROUP BY country;
