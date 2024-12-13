@@ -1,0 +1,4 @@
+SELECT order_date, SUM(quantity) AS total_quantity
+FROM sales_data
+GROUP BY order_date
+ORDER BY total_quantity DESC;
