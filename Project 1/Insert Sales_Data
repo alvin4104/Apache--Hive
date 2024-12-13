@@ -1,0 +1,1 @@
+LOAD DATA INPATH '/home/alvinnguyen41/data/sales_data.csv' INTO TABLE sales_data;
