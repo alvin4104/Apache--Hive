@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS sales_data (
+    sales_id INT,
+    customer_id INT,
+    product_id INT,
+    sales_date STRING,
+    quantity INT,
+    total_price DOUBLE,
+    provinces_cities STRING,
+    central STRING,
+    region STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
