@@ -1,0 +1,3 @@
+SELECT provinces_cities, SUM(quantity) AS total_quantity
+FROM cars_data
+GROUP BY provinces_cities;
