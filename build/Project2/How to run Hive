@@ -1,0 +1,6 @@
+hdfs namenode -format
+start-all.sh
+hdfs dfs -mkdir -p /home/alvinnguyen41/hive/cars_data
+hdfs dfs -put /home/alvinnguyen41/hive/cars_data/Alviny's Cars.csv /user/alvinnguyen41/hive/cars_data/
+bin/schematool -dbType derby -initSchema
+
