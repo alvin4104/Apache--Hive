@@ -1,0 +1,4 @@
+SELECT order_id, product_name, price, quantity, (price * quantity) AS order_value
+FROM sales_data
+ORDER BY order_value DESC
+LIMIT 10;
