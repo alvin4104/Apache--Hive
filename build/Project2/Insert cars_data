@@ -1,0 +1,2 @@
+LOAD DATA INPATH '/home/alvinnguyen41/hive/cars_data/Alviny's Cars.csv' 
+INTO TABLE cars_data;
