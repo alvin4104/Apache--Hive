@@ -1,0 +1,15 @@
+WITH monthly_revenue AS (
+    SELECT 
+        region, 
+        SUBSTR(sales_date, 1, 7) AS month, 
+        SUM(total_price) AS total_revenue
+    FROM cars_data
+    GROUP BY region, SUBSTR(sales_date, 1, 7)
+)
+SELECT 
+    region, 
+    month, 
+    total_revenue, 
+    total_revenue - LAG(total_revenue) OVER (PARTITION BY region ORDER BY month) AS revenue_growth
+FROM monthly_revenue
+ORDER BY revenue_growth DESC;
