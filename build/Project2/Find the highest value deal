@@ -1,0 +1,4 @@
+SELECT * 
+FROM cars_data
+ORDER BY total_price DESC
+LIMIT 1;
