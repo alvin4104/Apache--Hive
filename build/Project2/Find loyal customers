@@ -1,0 +1,5 @@
+SELECT customer_id, COUNT(*) AS total_transactions
+FROM cars_data
+GROUP BY customer_id
+ORDER BY total_transactions DESC
+LIMIT 1;
