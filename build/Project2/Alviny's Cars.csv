@@ -1,0 +1,65 @@
+﻿sales_id,customer_id,product_id,sales_date,quanity, total_price ,provinces/cities,tw,region
+1,1,1,1/1/2007,5,"$700,000 ",Ha Noi,Hoan Kiem,Red River Delta
+2,2,1,1/2/2007,10,"$1,495,000 ",Ho Chi Minh City,District 1,Southeast Vietnam
+3,3,1,1/3/2007,2,"$200,000 ",Da Nang,Hai Chau,Southcentral Vietnam
+4,4,1,1/4/2007,4,"$400,000 ",Khanh Hoa,Nha Trang,Southcentral Vietnam
+5,5,1,1/5/2007,1,"$100,000 ",Hai Phong,Hong Bang,Red River Delta
+6,6,1,1/6/2007,6,"$104,000 ",Can Tho,Ninh Kieu,Mekong Delta
+7,7,1,1/7/2007,2,"$200,000 ",Nam Dinh,Nam Dinh,Red River Delta
+8,8,1,1/8/2007,5,"$500,000 ",Thua Thien Hue,Hue City,Northcentral Vietnam
+9,9,1,1/9/2007,4,"$400,000 ",Quang Ninh,Ha Long,Northeast Vietnam
+10,10,1,1/10/2007,5,"$100,060 ",Kien Giang,Rach Gia,Mekong Delta
+11,11,1,1/11/2007,7,"$110,000 ",Dong Nai,Bien Hoa,Southeast Vietnam
+12,12,1,1/12/2007,8,"$107,000 ",Binh Duong,Thu Dau Mot,Southeast Vietnam
+13,13,1,1/13/2007,5,"$500,000 ",Bac Ninh,Bac Ninh,Red River Delta
+14,14,1,1/14/2007,1,"$100,000 ",An Giang,Long Xuyen,Mekong Delta
+15,15,1,1/15/2007,6,"$600,000 ",Hung Yen,Hung Yen,Red River Delta
+16,16,1,1/16/2007,4,"$400,000 ",Thai Nguyen,Thai Nguyen,Northeast Vietnam
+17,17,1,1/17/2007,8,"$800,000 ",Vinh Long,Vinh Long,Mekong Delta
+18,18,1,1/18/2007,9,"$103,000 ",Ba Ria - Vung Tau,Vung Tau,Southeast Vietnam
+19,19,1,1/19/2007,9,"$100,000 ",Lam Dong,Da Lat,Central Highlands
+20,20,1,1/20/2007,5,"$500,000 ",Quang Nam,Tam Ky,Southcentral Vietnam
+21,21,1,1/21/2007,4,"$400,000 ",Ha Giang,Ha Giang,Northeast Vietnam
+22,22,1,1/22/2007,2,"$200,000 ",Kon Tum,Kon Tum,Central Highlands
+23,23,1,1/23/2007,1,"$100,000 ",Cao Bang,Cao Bang,Northeast Vietnam
+24,24,1,1/24/2007,3,"$300,000 ",Ninh Thuan,Phan Rang - Thap Cham,Southcentral Vietnam
+25,25,1,1/25/2007,6,"$600,000 ",Hoa Binh,Hoa Binh,Northwest Vietnam
+26,26,1,1/26/2007,8,"$800,000 ",Lai Chau,Lai Chau,Northwest Vietnam
+27,27,1,1/27/2007,7,"$700,000 ",Dien Bien,Dien Bien Phu,Northwest Vietnam
+28,28,1,1/28/2007,2,"$200,000 ",Soc Trang,Soc Trang,Mekong Delta
+29,29,1,1/29/2007,5,"$500,000 ",Tien Giang,My Tho,Mekong Delta
+30,30,1,1/30/2007,4,"$400,000 ",Ben Tre,Ben Tre,Mekong Delta
+31,31,1,1/31/2007,3,"$300,000 ",Ha Tinh,Ha Tinh,Northcentral Vietnam
+32,32,1,2/1/2007,6,"$600,000 ",Binh Dinh,Quy Nhon,Southcentral Vietnam
+33,33,1,2/2/2007,8,"$800,000 ",Quang Ngai,Quang Ngai,Southcentral Vietnam
+34,34,1,2/3/2007,9,"$900,000 ",Phu Yen,Tuy Hoa,Southcentral Vietnam
+35,35,1,2/4/2007,2,"$900,000 ",Gia Lai,Pleiku City,Central Highlands
+36,36,1,2/5/2007,1,"$100,000 ",Dak Lak,Buon Ma Thuot,Central Highlands
+37,37,1,2/6/2007,3,"$300,000 ",Dak Nong,Gia Nghia,Central Highlands
+38,38,1,2/7/2007,4,"$400,000 ",Ha Nam,Phu Ly,Red River Delta
+39,39,1,2/8/2007,6,"$600,000 ",Thai Binh,Thai Binh,Red River Delta
+40,40,1,2/9/2007,5,"$500,000 ",Bac Giang,Bac Giang,Northeast Vietnam
+41,41,1,2/10/2007,2,"$200,000 ",Lang Son,Lang Son,Northeast Vietnam
+42,42,1,2/11/2007,8,"$800,000 ",Tuyen Quang,Tuyen Quang,Northeast Vietnam
+43,43,1,2/12/2007,3,"$300,000 ",Yen Bai,Yen Bai,Northwest Vietnam
+44,44,1,2/13/2007,1,"$100,000 ",Son La,Son La,Northwest Vietnam
+45,45,1,2/14/2007,4,"$400,000 ",Ninh Binh,Ninh Binh,Red River Delta
+46,46,1,2/15/2007,7,"$700,000 ",Thai Binh,Thai Binh,Red River Delta
+47,47,1,2/16/2007,5,"$500,000 ",Bac Kan,Bac Kan,Northeast Vietnam
+48,48,1,2/17/2007,6,"$100,400 ",Binh Phuoc,Dong Xoai,Southeast Vietnam
+49,49,1,2/18/2007,6,"$600,000 ",Vinh Phuc,Vinh Yen,Red River Delta
+50,50,1,2/19/2007,5,"$100,010 ",Bac Lieu,Bac Lieu,Mekong Delta
+51,51,1,2/20/2007,1,"$100,000 ",Hau Giang,Vi Thanh,Mekong Delta
+52,52,1,2/21/2007,6,"$100,000 ",Long An,Tan An,Mekong Delta
+53,53,1,2/22/2007,4,"$400,000 ",Dong Thap,Sa Dec,Mekong Delta
+54,54,1,2/23/2007,2,"$200,000 ",Quang Tri,Dong Ha,Northcentral Vietnam
+55,55,1,2/24/2007,8,"$800,000 ",Quang Binh,Dong Hoi,Northcentral Vietnam
+56,56,1,2/25/2007,6,"$600,000 ",Phu Tho,Viet Tri,Northeast Vietnam
+57,57,1,2/26/2007,9,"$900,000 ",Thanh Hoa,Thanh Hoa,Northcentral Vietnam
+58,58,1,2/27/2007,3,"$800,000 ",Lao Cai,Lao Cai,Northwest Vietnam
+59,59,1,2/28/2007,7,"$100,090 ",Tay Ninh,Tay Ninh,Southeast Vietnam
+60,60,1,2/29/2007,4,"$400,000 ",Binh Thuan,Phan Thiet,Southcentral Vietnam
+61,61,1,3/1/2007,5,"$500,000 ",Ca Mau,Ca Mau,Mekong Delta
+62,62,1,3/2/2007,2,"$200,000 ",Nghe An,Vinh City,Northcentral Vietnam
+63,63,1,3/3/2007,1,"$100,000 ",Hai Duong,Hai Duong,Red River Delta
+64,64,1,5/3/2007,5,"$400,000 ",Ha Tay,Ha Dong,Red River Delta
