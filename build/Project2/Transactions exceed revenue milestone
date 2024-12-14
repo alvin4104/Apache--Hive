@@ -1,0 +1,4 @@
+SELECT * 
+FROM cars_data
+WHERE total_price > 1000000
+ORDER BY total_price DESC;
