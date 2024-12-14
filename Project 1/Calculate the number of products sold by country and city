@@ -1,0 +1,4 @@
+SELECT country, city, SUM(quantity) AS total_quantity
+FROM sales_data
+GROUP BY country, city
+ORDER BY total_quantity DESC;
