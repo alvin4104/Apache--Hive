@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS sales_data (
+CREATE TABLE IF NOT EXISTS cars_data (
     sales_id INT,
     customer_id INT,
     product_id INT,
