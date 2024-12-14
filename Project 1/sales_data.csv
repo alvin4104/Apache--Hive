@@ -1,0 +1,159 @@
+order_id,product_id,product_name,category,price,quantity,order_date,city,state,country
+1,101,"Calvin Klein","Luxury",120,5,2024-01-01,Birmingham,Alabama,USA
+2,102,"Calvin Klein","Standard",120,3,2024-01-02,Montgomery,Alabama,USA
+3,103,"Calvin Klein","Luxury",150,3,2024-02-10,Mobile,Alabama,USA
+4,104,"Calvin Klein","Luxury",120,3,2024-03-15,Anchorage,Alaska,USA
+5,105,"Calvin Klein","Standard",120,4,2024-04-12,Fairbanks,Alaska,USA
+6,106,"Calvin Klein","Standard",120,3,2024-02-17,Juneau,Alaska,USA
+7,107,"Calvin Klein","Luxury",123,4,2024-01-15,Phoenix,Arizona,USA
+8,108,"Calvin Klein","Standard",122,5,2024-04-12,Tuscon,Arizona,USA
+9,109,"Calvin Klein","Luxury",121,3,2024-02-03,Mesa,Arizona,USA
+10,110,"Calvin Klein","Standard",120,3,2024-01-01,Little Rock,Arkansas,USA
+11,111,"Calvin Klein","Luxury",123,3,2024-03-03,Fort Smith,Arkansas,USA
+12,112,"Calvin Klein","Standard",124,4,2024-03-04,Fayetteville,Arkansas,USA
+13,113,"Calvin Klein","Luxury",124,3,2024-02-03,Los Angeles,California,USA
+14,114,"Calvin Klein","Standard",125,6,2024-05-02,Des Moines,Iowa,USA
+15,115,"Calvin Klein","Luxury",120,3,2024-05-01,San Diego,California,USA
+16,116,"Calvin Klein","Standard",121,4,2024-02-10,San Francisco,California,USA
+17,117,"Calvin Klein","Luxury",122,5,2024-03-05,Sacramento,California,USA
+18,118,"Calvin Klein","Standard",123,6,2024-04-18,Oakland,California,USA
+19,119,"Calvin Klein","Luxury",124,3,2024-05-05,Fresno,California,USA
+20,120,"Calvin Klein","Standard",125,3,2024-06-12,Long Beach,California,USA
+21,121,"Calvin Klein","Luxury",126,4,2024-07-14,Santa Ana,California,USA
+22,122,"Calvin Klein","Standard",127,2,2024-06-21,Chula Vista,California,USA
+23,123,"Calvin Klein","Luxury",128,4,2024-02-28,St. Louis,Missouri,USA
+24,124,"Calvin Klein","Standard",129,3,2024-04-08,Chicago,Illinois,USA
+25,125,"Calvin Klein","Luxury",130,4,2024-03-25,Indianapolis,Indiana,USA
+26,126,"Calvin Klein","Standard",131,5,2024-02-01,Columbus,Ohio,USA
+27,127,"Calvin Klein","Luxury",132,3,2024-03-15,Jacksonville,Florida,USA
+28,128,"Calvin Klein","Standard",133,4,2024-01-25,Fort Worth,Texas,USA
+29,129,"Calvin Klein","Luxury",134,5,2024-05-20,Seattle,Washington,USA
+30,130,"Calvin Klein","Standard",135,6,2024-04-10,Denver,Colorado,USA
+31,131,"Calvin Klein","Luxury",136,3,2024-02-14,Washington,D.C.,USA
+32,132,"Calvin Klein","Standard",137,4,2024-06-18,New York,New York,USA
+33,133,"Calvin Klein","Luxury",138,3,2024-05-25,Boston,Massachusetts,USA
+34,134,"Calvin Klein","Standard",139,4,2024-03-05,Los Angeles,California,USA
+35,135,"Calvin Klein","Luxury",140,5,2024-02-20,Miami,Florida,USA
+36,136,"Calvin Klein","Standard",141,4,2024-01-10,Orlando,Florida,USA
+37,137,"Calvin Klein","Luxury",142,3,2024-02-27,Las Vegas,Nevada,USA
+38,138,"Calvin Klein","Standard",143,4,2024-03-10,Philadelphia,Pennsylvania,USA
+39,139,"Calvin Klein","Luxury",144,5,2024-05-03,Phoenix,Arizona,USA
+40,140,"Calvin Klein","Standard",145,4,2024-04-14,Austin,Texas,USA
+41,141,"Calvin Klein","Luxury",146,3,2024-06-04,Charlotte,North Carolina,USA
+42,142,"Calvin Klein","Standard",147,4,2024-03-01,Memphis,Tennessee,USA
+43,143,"Calvin Klein","Luxury",148,3,2024-07-01,Detroit,Michigan,USA
+44,144,"Calvin Klein","Standard",149,6,2024-04-25,Portland,Oregon,USA
+45,145,"Calvin Klein","Luxury",150,5,2024-05-14,San Antonio,Texas,USA
+46,146,"Calvin Klein","Standard",151,3,2024-07-05,El Paso,Texas,USA
+47,147,"Calvin Klein","Luxury",152,4,2024-06-10,Charlotte,North Carolina,USA
+48,148,"Calvin Klein","Standard",153,3,2024-06-17,San Jose,California,USA
+49,149,"Calvin Klein","Luxury",154,5,2024-03-22,Honolulu,Hawaii,USA
+50,150,"Calvin Klein","Standard",155,3,2024-05-11,Tucson,Arizona,USA
+51,151,"Calvin Klein","Luxury",156,4,2024-01-16,Louisville,Kentucky,USA
+52,152,"Calvin Klein","Standard",157,4,2024-03-28,Milwaukee,Wisconsin,USA
+53,153,"Calvin Klein","Luxury",158,5,2024-02-13,Denver,Colorado,USA
+54,154,"Calvin Klein","Standard",159,3,2024-04-19,Jackson,Mississippi,USA
+55,155,"Calvin Klein","Luxury",160,5,2024-06-02,Baltimore,Maryland,USA
+56,156,"Calvin Klein","Standard",161,3,2024-01-22,Chicago,Illinois,USA
+57,157,"Calvin Klein","Luxury",162,4,2024-03-05,New Orleans,Louisiana,USA
+58,158,"Calvin Klein","Standard",163,4,2024-02-01,San Francisco,California,USA
+59,159,"Calvin Klein","Luxury",164,5,2024-04-17,Detroit,Michigan,USA
+60,160,"Calvin Klein","Standard",165,3,2024-02-05,Minneapolis,Minnesota,USA
+61,161,"Calvin Klein","Luxury",166,4,2024-06-22,Denver,Colorado,USA
+62,162,"Calvin Klein","Standard",167,4,2024-04-07,St. Louis,Missouri,USA
+63,163,"Calvin Klein","Luxury",168,5,2024-03-25,Indianapolis,Indiana,USA
+64,164,"Calvin Klein","Standard",169,6,2024-02-20,Cleveland,Ohio,USA
+65,165,"Calvin Klein","Luxury",170,3,2024-05-30,St. Paul,Minnesota,USA
+66,166,"Calvin Klein","Standard",171,4,2024-01-14,Tampa,Florida,USA
+67,167,"Calvin Klein","Luxury",172,5,2024-03-12,New York,New York,USA
+68,168,"Calvin Klein","Standard",173,6,2024-07-09,Seattle,Washington,USA
+69,169,"Calvin Klein","Luxury",174,3,2024-02-06,Columbus,Ohio,USA
+70,170,"Calvin Klein","Standard",175,5,2024-04-09,New York,New York,USA
+71,171,"Calvin Klein","Luxury",176,4,2024-05-10,Atlanta,Georgia,USA
+72,172,"Calvin Klein","Standard",177,3,2024-06-25,Birmingham,Alabama,USA
+73,173,"Calvin Klein","Luxury",178,5,2024-01-29,Richmond,Virginia,USA
+74,174,"Calvin Klein","Standard",179,3,2024-03-13,Salt Lake City,Utah,USA
+75,175,"Calvin Klein","Luxury",180,4,2024-05-05,Bakersfield,California,USA
+76,176,"Calvin Klein","Standard",181,6,2024-02-07,Louisville,Kentucky,USA
+77,177,"Calvin Klein","Luxury",182,5,2024-03-22,Indianapolis,Indiana,USA
+78,178,"Calvin Klein","Standard",183,4,2024-04-02,Kansas City,Missouri,USA
+79,179,"Calvin Klein","Luxury",184,3,2024-05-16,Pittsburgh,Pennsylvania,USA
+80,180,"Calvin Klein","Standard",185,5,2024-06-08,Madison,Wisconsin,USA
+81,181,"Calvin Klein","Luxury",186,4,2024-01-19,Orlando,Florida,USA
+82,182,"Calvin Klein","Standard",187,3,2024-04-21,Boston,Massachusetts,USA
+83,183,"Calvin Klein","Luxury",188,5,2024-03-02,Washington,D.C.,USA
+84,184,"Calvin Klein","Standard",189,4,2024-07-13,Greensboro,North Carolina,USA
+85,185,"Calvin Klein","Luxury",190,3,2024-05-03,Memphis,Tennessee,USA
+86,186,"Calvin Klein","Standard",191,4,2024-02-09,St. Louis,Missouri,USA
+87,187,"Calvin Klein","Luxury",192,5,2024-01-12,Chattanooga,Tennessee,USA
+88,188,"Calvin Klein","Standard",193,6,2024-07-02,San Antonio,Texas,USA
+89,189,"Calvin Klein","Luxury",194,4,2024-05-22,Columbus,Ohio,USA
+90,190,"Calvin Klein","Standard",195,3,2024-03-18,Jacksonville,Florida,USA
+91,191,"Calvin Klein","Luxury",196,5,2024-02-22,Indianapolis,Indiana,USA
+92,192,"Calvin Klein","Standard",197,3,2024-04-28,Miami,Florida,USA
+93,193,"Calvin Klein","Luxury",198,4,2024-06-29,Des Moines,Iowa,USA
+94,194,"Calvin Klein","Standard",199,3,2024-05-04,Syracuse,New York,USA
+95,195,"Calvin Klein","Luxury",200,5,2024-06-12,St. Paul,Minnesota,USA
+96,196,"Calvin Klein","Standard",201,4,2024-02-17,Memphis,Tennessee,USA
+97,197,"Calvin Klein","Luxury",202,5,2024-04-10,New Orleans,Louisiana,USA
+98,198,"Calvin Klein","Standard",203,6,2024-01-24,Salt Lake City,Utah,USA
+99,199,"Calvin Klein","Luxury",204,3,2024-06-26,Albuquerque,New Mexico,USA
+100,200,"Calvin Klein","Standard",205,4,2024-05-11,Tulsa,Oklahoma,USA
+101,201,"Calvin Klein","Luxury",206,5,2024-03-19,Arlington,Texas,USA
+102,202,"Calvin Klein","Standard",207,3,2024-06-14,Fort Worth,Texas,USA
+103,203,"Calvin Klein","Luxury",208,4,2024-01-30,Tallahassee,Florida,USA
+104,204,"Calvin Klein","Standard",209,5,2024-04-15,Columbia,South Carolina,USA
+105,205,"Calvin Klein","Luxury",210,3,2024-03-09,Rockford,Illinois,USA
+106,206,"Calvin Klein","Standard",211,4,2024-07-19,Provo,Utah,USA
+107,207,"Calvin Klein","Luxury",212,5,2024-02-13,Clarksville,Tennessee,USA
+108,208,"Calvin Klein","Standard",213,3,2024-04-23,Anchorage,Alaska,USA
+109,209,"Calvin Klein","Luxury",214,4,2024-01-05,Cheyenne,Wyoming,USA
+110,210,"Calvin Klein","Standard",215,3,2024-06-05,Shreveport,Louisiana,USA
+111,211,"Calvin Klein","Luxury",216,5,2024-02-12,Montgomery,Alabama,USA
+112,212,"Calvin Klein","Standard",217,4,2024-04-11,Lansing,Michigan,USA
+113,213,"Calvin Klein","Luxury",218,5,2024-03-01,Dallas,Texas,USA
+114,214,"Calvin Klein","Standard",219,3,2024-05-18,Chesapeake,Virginia,USA
+115,215,"Calvin Klein","Luxury",220,4,2024-01-28,Boise,Idaho,USA
+116,216,"Calvin Klein","Standard",221,6,2024-06-16,Grand Rapids,Michigan,USA
+117,217,"Calvin Klein","Luxury",222,5,2024-04-06,Nashville,Tennessee,USA
+118,218,"Calvin Klein","Standard",223,4,2024-02-23,St. Petersburg,Florida,USA
+119,219,"Calvin Klein","Luxury",224,3,2024-05-12,West Valley City,Utah,USA
+120,220,"Calvin Klein","Standard",225,5,2024-03-20,Mobile,Alabama,USA
+121,221,"Calvin Klein","Luxury",226,4,2024-01-21,Elgin,Illinois,USA
+122,222,"Calvin Klein","Standard",227,3,2024-04-14,Miami Beach,Florida,USA
+123,223,"Calvin Klein","Luxury",228,5,2024-06-09,Bellevue,Washington,USA
+124,224,"Calvin Klein","Standard",229,4,2024-03-02,Peoria,Illinois,USA
+125,225,"Calvin Klein","Luxury",230,3,2024-04-30,Pasadena,California,USA
+126,226,"Calvin Klein","Standard",231,5,2024-01-15,Fort Collins,Colorado,USA
+127,227,"Calvin Klein","Luxury",232,4,2024-06-01,Cedar Rapids,Iowa,USA
+128,228,"Calvin Klein","Standard",233,6,2024-02-03,Norman,Oklahoma,USA
+129,229,"Calvin Klein","Luxury",234,3,2024-04-04,Greensboro,North Carolina,USA
+130,230,"Calvin Klein","Standard",235,5,2024-07-08,Hickory,North Carolina,USA
+131,231,"Calvin Klein","Luxury",236,4,2024-01-18,Rock Hill,South Carolina,USA
+132,232,"Calvin Klein","Standard",237,3,2024-06-02,Provo,Utah,USA
+133,233,"Calvin Klein","Luxury",238,5,2024-02-17,Peoria,Illinois,USA
+134,234,"Calvin Klein","Standard",239,4,2024-04-23,Burlington,Vermont,USA
+135,235,"Calvin Klein","Luxury",240,3,2024-05-10,Lafayette,Indiana,USA
+136,236,"Calvin Klein","Standard",241,5,2024-03-19,Sterling Heights,Michigan,USA
+137,237,"Calvin Klein","Luxury",242,4,2024-07-05,Evansville,Indiana,USA
+138,238,"Calvin Klein","Standard",243,6,2024-01-26,Bismarck,North Dakota,USA
+139,239,"Calvin Klein","Luxury",244,5,2024-02-02,South Bend,Indiana,USA
+140,240,"Calvin Klein","Standard",245,4,2024-04-14,Mansfield,Ohio,USA
+141,241,"Calvin Klein","Luxury",246,3,2024-05-22,Appleton,Wisconsin,USA
+142,242,"Calvin Klein","Standard",247,5,2024-01-06,Lima,Ohio,USA
+143,243,"Calvin Klein","Luxury",248,4,2024-03-07,Jackson,Mississippi,USA
+144,244,"Calvin Klein","Standard",249,3,2024-04-05,Kennewick,Washington,USA
+145,245,"Calvin Klein","Luxury",250,5,2024-02-12,Minot,North Dakota,USA
+146,246,"Calvin Klein","Standard",251,4,2024-05-19,Wilmington,Delaware,USA
+147,247,"Calvin Klein","Luxury",252,5,2024-01-21,East Lansing,Michigan,USA
+148,248,"Calvin Klein","Standard",253,3,2024-02-25,La Crosse,Wisconsin,USA
+149,249,"Calvin Klein","Luxury",254,4,2024-07-14,Anke,Iowa,USA
+150,250,"Calvin Klein","Standard",255,6,2024-03-26,Boca Ration,Florida,USA
+151,251,"Calvin Klein","Luxury",256,5,2024-01-30,JOSSO,Michigan,USA
+152,252,"Calvin Klein","Standard",257,4,2024-04-01,Corvallis,Oregon,USA
+153,253,"Calvin Klein","Luxury",258,5,2024-02-11,Kalamazoo,Michigan,USA
+154,254,"Calvin Klein","Standard",259,3,2024-03-16,Fargo,North Dakota,USA
+155,255,"Calvin Klein","Luxury",260,4,2024-04-09,Grand Forks,North Dakota,USA
+156,256,"Calvin Klein","Standard",261,5,2024-05-13,Caducei,Kentucky,USA
+157,257,"Calvin Klein","Luxury",262,3,2024-01-10,West Des Moines,Iowa,USA
+158,258,"Calvin Klein","Standard",263,4,2024-06-18,Louisville,Colorado,USA
