@@ -1,0 +1,5 @@
+SELECT city, AVG(price * quantity) AS avg_order_value
+FROM sales_data
+GROUP BY city
+ORDER BY avg_order_value DESC
+LIMIT 1;
