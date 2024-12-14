@@ -1,0 +1,3 @@
+SELECT * 
+FROM cars_data
+WHERE sales_date LIKE '2024-12%';
