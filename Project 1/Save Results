@@ -1,0 +1,6 @@
+INSERT OVERWRITE DIRECTORY '/home/alvinnguyen41/hive/output/revenue_by_country'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+SELECT country, SUM(price * quantity) AS revenue 
+FROM sales_data 
+GROUP BY country;
