@@ -1,0 +1,4 @@
+SELECT city, state, SUM(price * quantity) AS total_revenue
+FROM sales_data
+GROUP BY city, state
+ORDER BY total_revenue DESC;
