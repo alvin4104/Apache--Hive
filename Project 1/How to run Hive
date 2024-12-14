@@ -1,0 +1,9 @@
+#HADOOP
+hdfs namenode -format
+start-all.sh
+hdfs dfs -mkdir /home/alvinnguyen41/hive/sales_data
+hdfs dfs -put sales_data.csv /home/alvinnguyen41/hive/sales_data/
+#HIVE
+bin/schematool -dbType derby -initSchema
+SET hive.execution.engine=tez; -- or spark/mapreduce
+
