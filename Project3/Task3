@@ -1,0 +1,12 @@
+CREATE TABLE baseball_master_partitioned (
+    playerID STRING,
+    birthYear INT,
+    birthMonth INT,
+    birthDay INT,
+    birthState STRING,
+    birthCity STRING
+)
+PARTITIONED BY (birthCountry STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
