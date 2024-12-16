@@ -1,0 +1,27 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS baseball_master (
+    playerID STRING,
+    birthYear INT,
+    birthMonth INT,
+    birthDay INT,
+    birthCountry STRING,
+    birthState STRING,
+    birthCity STRING,
+    deathYear INT,
+    deathMonth INT,
+    deathDay INT,
+    deathCountry STRING,
+    deathState STRING,
+    deathCity STRING,
+    nameFirst STRING,
+    nameLast STRING,
+    weight INT,
+    height INT,
+    bats STRING,
+    throws STRING,
+    debut STRING,
+    finalGame STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION '/user/baseball';
