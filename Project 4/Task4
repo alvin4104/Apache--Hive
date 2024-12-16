@@ -1,0 +1,3 @@
+SELECT ProductID, ProductName, SUM(Q1Revenue2024) AS Total_Q1_Revenue
+FROM product_sales
+GROUP BY ProductID, ProductName;
