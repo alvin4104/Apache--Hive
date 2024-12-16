@@ -1,0 +1,5 @@
+SELECT ProductID, ProductName,
+       SUM(SoldQuantity) AS TotalSoldQuantity,
+       SUM(RemainingQuantity) AS TotalRemainingQuantity
+FROM product_sales
+GROUP BY ProductID, ProductName;
