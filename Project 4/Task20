@@ -1,0 +1,4 @@
+SELECT ProductID, ProductName,
+       (SUM(SoldQuantity) / SUM(MarketQuantity)) * 100 AS SoldPercentage
+FROM product_sales
+GROUP BY ProductID, ProductName;
