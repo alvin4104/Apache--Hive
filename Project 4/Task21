@@ -1,0 +1,4 @@
+CREATE TABLE sales_summary AS
+SELECT ProductID, SUM(Sales) AS TotalSales
+FROM product_sales
+GROUP BY ProductID;
