@@ -1,0 +1,9 @@
+SELECT ProductID, ProductName,
+       AVG(EmployeeSalary) AS AvgEmployeeSalary,
+       AVG(ManagerSalary) AS AvgManagerSalary,
+       AVG(JanitorSalary) AS AvgJanitorSalary,
+       AVG(ChefSalary) AS AvgChefSalary,
+       AVG(BartenderSalary) AS AvgBartenderSalary,
+       AVG(ShipperSalary) AS AvgShipperSalary
+FROM product_sales
+GROUP BY ProductID, ProductName;
