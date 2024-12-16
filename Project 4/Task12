@@ -1,0 +1,7 @@
+SELECT Country, ProductID, ProductName,
+       SUM(Revenue2024) AS TotalRevenue2024,
+       SUM(Revenue2023) AS TotalRevenue2023,
+       (SUM(Revenue2024) - SUM(Revenue2023)) / SUM(Revenue2023) * 100 AS GrowthRate
+FROM product_sales
+GROUP BY Country, ProductID, ProductName
+ORDER BY GrowthRate DESC;
