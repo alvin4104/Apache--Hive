@@ -1,0 +1,6 @@
+INSERT OVERWRITE DIRECTORY '/user/baseball/results/players_usa'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+SELECT playerID, nameFirst, nameLast, birthYear
+FROM baseball_master
+WHERE birthCountry = 'USA' AND birthYear > 1980;
