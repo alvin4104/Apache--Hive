@@ -1,0 +1,5 @@
+SET hive.exec.dynamic.partition.mode=nonstrict;
+
+INSERT INTO TABLE baseball_master_partitioned PARTITION (birthCountry)
+SELECT playerID, birthYear, birthMonth, birthDay, birthState, birthCity, birthCountry
+FROM baseball_master;
