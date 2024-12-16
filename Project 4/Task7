@@ -1,0 +1,10 @@
+SELECT ProductID, ProductName,
+       SUM(Revenue2021) AS TotalRevenue2021,
+       SUM(Revenue2022) AS TotalRevenue2022,
+       SUM(Revenue2023) AS TotalRevenue2023,
+       SUM(Revenue2024) AS TotalRevenue2024,
+       (SUM(Revenue2022) - SUM(Revenue2021)) / SUM(Revenue2021) * 100 AS GrowthRate2022,
+       (SUM(Revenue2023) - SUM(Revenue2022)) / SUM(Revenue2022) * 100 AS GrowthRate2023,
+       (SUM(Revenue2024) - SUM(Revenue2023)) / SUM(Revenue2023) * 100 AS GrowthRate2024
+FROM product_sales
+GROUP BY ProductID, ProductName;
