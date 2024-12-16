@@ -1,0 +1,4 @@
+CREATE TABLE baseball_players_usa AS
+SELECT playerID, nameFirst, nameLast, birthYear
+FROM baseball_master
+WHERE birthCountry = 'USA' AND birthYear > 1980;
