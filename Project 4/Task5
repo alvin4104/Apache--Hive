@@ -1,0 +1,43 @@
+CREATE TABLE product_sales_partitioned (
+  ProductID INT,
+  ProductName STRING,
+  Country STRING,
+  EmployeeSalary DOUBLE,
+  ManagerSalary DOUBLE,
+  JanitorSalary DOUBLE,
+  ChefSalary DOUBLE,
+  GuardSalary DOUBLE,
+  BartenderSalary DOUBLE,
+  ShipperSalary DOUBLE,
+  EmployeeCount INT,
+  ManagerCount INT,
+  ChefCount INT,
+  BartenderCount INT,
+  JanitorCount INT,
+  GuardCount INT,
+  ShipperCount INT,
+  Sales DOUBLE,
+  MarketedProductQuantity INT,
+  SoldQuantity INT,
+  RemainingQuantity INT,
+  Q1Revenue2024 DOUBLE,
+  Q2Revenue2024 DOUBLE,
+  Q3Revenue2024 DOUBLE,
+  Q4Revenue2024 DOUBLE,
+  Revenue2021 DOUBLE,
+  Revenue2022 DOUBLE,
+  Revenue2023 DOUBLE,
+  Revenue2024 DOUBLE,
+  GrowthRate2021 DOUBLE,
+  GrowthRate2022 DOUBLE,
+  GrowthRate2023 DOUBLE,
+  GrowthRate2024 DOUBLE,
+  CustomerFeedback STRING,
+  CustomerEmail STRING,
+  CustomerName STRING,
+  AddressName STRING
+)
+PARTITIONED BY (Year INT, Month INT)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
