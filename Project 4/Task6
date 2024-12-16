@@ -1,0 +1,1 @@
+ALTER TABLE product_sales_partitioned ADD PARTITION (Year=2024, Month=1) LOCATION '/user/hive/product_sales/Roboomy.csv/2024/01';
