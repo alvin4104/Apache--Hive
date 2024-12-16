@@ -1,0 +1,4 @@
+SELECT ProductID, ProductName, CustomerFeedback
+FROM product_sales
+WHERE CustomerFeedback IN ('5', '4')
+ORDER BY CustomerFeedback DESC;
