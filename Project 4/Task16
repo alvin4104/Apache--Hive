@@ -1,0 +1,6 @@
+SELECT ProductID, ProductName,
+       (SUM(Q2Revenue2024) - SUM(Q1Revenue2024)) / SUM(Q1Revenue2024) * 100 AS GrowthRate_Q1_to_Q2,
+       (SUM(Q3Revenue2024) - SUM(Q2Revenue2024)) / SUM(Q2Revenue2024) * 100 AS GrowthRate_Q2_to_Q3,
+       (SUM(Q4Revenue2024) - SUM(Q3Revenue2024)) / SUM(Q3Revenue2024) * 100 AS GrowthRate_Q3_to_Q4
+FROM product_sales
+GROUP BY ProductID, ProductName;
