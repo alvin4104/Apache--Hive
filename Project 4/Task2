@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INPATH /user/hive/product_sales/Roboomy.csv' INTO TABLE product_sales;
