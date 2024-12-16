@@ -1,0 +1,5 @@
+SELECT ProductID, ProductName, SUM(Revenue2024) AS TotalRevenue2024
+FROM product_sales
+GROUP BY ProductID, ProductName
+ORDER BY TotalRevenue2024 DESC
+LIMIT 10;
