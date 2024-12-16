@@ -1,0 +1,4 @@
+INSERT OVERWRITE LOCAL DIRECTORY '/user/hive/product_sales/Roboomy.csv/output'
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+SELECT * FROM product_sales;
