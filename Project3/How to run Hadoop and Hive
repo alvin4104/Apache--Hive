@@ -1,0 +1,16 @@
+#HADOOP
+hdfs namenode -format
+start.all.sh
+jps
+sudo hdfs dfs -mkdir /user/baseball
+sudo hdfs dfs -chmod 777 /user/baseball
+wget http://seanlahman.com/files/database/lahman2012-csv.zip
+unzip lahman2012-csv.zip
+sudo hdfs dfs -put Master.csv /user/baseball/
+sudo hdfs dfs -put Teams.csv /user/baseball/
+sudo hdfs dfs -put Batting.csv /user/baseball/
+hdfs dfs -ls /user/baseball
+
+#HIVE
+cd /home/alvinnguyen41/hive/apache-hive-3.1.3-bin
+bin/schematool -dbType derby -initSchema
