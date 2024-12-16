@@ -1,0 +1,2 @@
+hdfs dfs -ls /user/baseball/results/players_usa
+hdfs dfs -cat /user/baseball/results/players_usa/000000_0
