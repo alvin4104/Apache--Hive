@@ -1,0 +1,2 @@
+String selectSQL = "SELECT * FROM skyper_data LIMIT 10";
+ResultSet rs = stmt.executeQuery(selectSQL);
