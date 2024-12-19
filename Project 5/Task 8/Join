@@ -1,0 +1,2 @@
+String selectSQL = "SELECT a.id, a.name, b.product_name FROM skyper_data a JOIN product_data b ON a.id = b.id";
+ResultSet rs = stmt.executeQuery(selectSQL);
