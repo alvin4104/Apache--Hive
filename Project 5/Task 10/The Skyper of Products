@@ -1,1 +1,32 @@
+Project Title: The Skyper of Products
+Technology Stack: Apache Hive, Java, Hadoop Ecosystem
 
+Project Overview:
+The Skyper of Products is a project focused on using Apache Hive to store, manage, and analyze product data. It involves building a system that efficiently processes large datasets of product-related information, enabling businesses to perform valuable insights and data analysis. The project is designed to demonstrate how Apache Hive can be used to query structured data from large datasets in a distributed environment, leveraging Hadoop's MapReduce framework.
+
+Objective of the Project:
+The main goal of this project is to develop a system that allows businesses to store, query, and analyze their product data using Apache Hive. This involves integrating Java with Hive to execute SQL-like queries over large volumes of data, stored in a distributed Hadoop cluster. Through the system, the project aims to assist businesses in gaining valuable insights from their product data such as top-selling products, product performance, and sales trends.
+
+Key Features of the Project:
+Product Data Management:
+
+The project handles large datasets containing product information such as product names, product IDs, categories, prices, descriptions, sales data, and customer reviews. The data is stored in a structured format (e.g., CSV, JSON, or Parquet) and loaded into Hive tables for easy querying.
+Data Integration with Hive:
+
+Apache Hive acts as the central data warehouse for this project, enabling users to run SQL queries on the product data. Hive abstracts the complexity of Hadoop MapReduce jobs and makes it easier to work with large datasets using familiar SQL-like syntax.
+Java Integration:
+
+Java is used to connect to the Hive server and execute queries from within a Java program. The program interacts with Hive using the Hive JDBC driver to perform data operations such as querying, inserting, updating, and deleting records in Hive tables.
+Data Analysis:
+
+The project allows for querying and analyzing data to derive business insights. Some example queries could include:
+Finding the top-selling products.
+Calculating total sales revenue for each product.
+Identifying products with the highest ratings from customers.
+Analyzing sales trends by month, year, or other time periods.
+Business Use Cases:
+
+Sales Analytics: Identifying best-performing products in terms of sales volume and revenue.
+Inventory Management: Analyzing product inventory and stock levels to optimize the supply chain.
+Customer Insights: Understanding customer preferences based on product ratings and feedback.
+Product Performance: Tracking product performance over time to identify trends and areas for improvement
