@@ -1,0 +1,2 @@
+bin/schematool -dbType derby -initSchema
+
