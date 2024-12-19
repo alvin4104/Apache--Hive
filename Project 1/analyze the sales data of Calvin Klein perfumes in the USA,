@@ -1,1 +1,24 @@
+Project Description
+This project focuses on analyzing the sales data of Calvin Klein perfumes in the USA using Apache Hive. The objectives are:
 
+Data Ingestion: Import raw sales data into Hadoop Distributed File System (HDFS).
+
+Data includes product details, sales transactions, regions, customer demographics, and feedback.
+Schema Design: Define tables in Apache Hive to structure the data for efficient querying.
+
+Key tables: products, sales, regions, and customers.
+Data Processing:
+
+Use HiveQL to clean, transform, and process the raw data.
+Handle missing values, standardize formats, and filter data by relevant criteria (e.g., sales in the USA).
+Analysis Goals:
+
+Identify top-selling Calvin Klein perfume variants.
+Analyze revenue by region, time (monthly/quarterly/yearly), and customer segment.
+Determine peak sales periods and seasonal trends.
+Extract insights from customer feedback for product improvement.
+Visualization: Generate reports and visualizations using tools like Tableau or Power BI to present key findings.
+
+Outcome:
+
+Provide actionable insights into sales performance, market trends, and customer preferences to inform business strategies.
