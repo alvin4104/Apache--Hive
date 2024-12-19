@@ -1,0 +1,2 @@
+String selectSQL = "SELECT * FROM skyper_data WHERE score > 90";
+ResultSet rs = stmt.executeQuery(selectSQL);
