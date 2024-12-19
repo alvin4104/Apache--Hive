@@ -1,1 +1,26 @@
+Project Description
+The project focuses on creating and analyzing a baseball player dataset using Apache Hive. The dataset includes detailed information about players, such as personal details, career milestones, and performance statistics.
 
+Steps in the Project:
+Data Setup:
+
+Import raw data (CSV or JSON) into Hadoop Distributed File System (HDFS).
+Ensure data integrity and proper formatting before loading into Hive.
+Table Creation:
+
+Define an external Hive table (baseball_master) with fields like player details (name, birthdate, country), career stats (debut, final game), and physical attributes (height, weight).
+Use efficient file formats like Avro or Parquet for better storage and query performance.
+Data Processing:
+
+Use HiveQL to query, clean, and transform the data.
+Filter data by specific criteria, e.g., players from certain countries or active during a specific era.
+Data Analysis:
+
+Analyze player statistics to identify trends (e.g., average player weight and height over decades).
+Generate reports on player demographics, career longevity, and debut years.
+Visualization and Reporting:
+
+Integrate with tools like Tableau to create dashboards highlighting player insights.
+Display graphs and tables for better data interpretation.
+Outcome:
+The project provides a structured dataset and meaningful insights about baseball players, which can be used for historical research, fan engagement, or statistical comparisons.
