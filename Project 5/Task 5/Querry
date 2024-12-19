@@ -1,0 +1,39 @@
+package com.skyper;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class SkyperHive {
+    public static void main(String[] args) {
+        try {
+            // Kết nối tới Hive
+            String jdbcUrl = "jdbc:hive2://localhost:10000/default";
+            Connection conn = DriverManager.getConnection(jdbcUrl, "hive", "");
+
+            // Tạo statement để thực thi các truy vấn
+            Statement stmt = conn.createStatement();
+
+            // Truy vấn dữ liệu từ bảng skyper_data
+            String selectSQL = "SELECT * FROM skyper_data";
+            ResultSet rs = stmt.executeQuery(selectSQL);
+
+            // Lặp qua kết quả và in ra dữ liệu
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                double score = rs.getDouble("score");
+                System.out.println(id + ": " + name + " - " + score);
+            }
+
+            // Đóng kết nối
+            rs.close();
+            stmt.close();
+            conn.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
