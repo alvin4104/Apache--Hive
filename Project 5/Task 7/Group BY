@@ -1,0 +1,2 @@
+String selectSQL = "SELECT score, COUNT(*) FROM skyper_data GROUP BY score";
+ResultSet rs = stmt.executeQuery(selectSQL);
