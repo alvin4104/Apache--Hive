@@ -1,1 +1,1 @@
-java -cp target/skyper-1.0-SNAPSHOT.jar com.skyper.SkyperHive
+java -cp target/Alvin04-1.0-SNAPSHOT.jar com.skyper.SkyperHive
