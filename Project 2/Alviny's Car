@@ -1,1 +1,14 @@
+Project Description
+The project analyzes Alviny's car sales and service data using Hive on Hadoop. The objective is to extract insights into sales performance, customer behavior, and service trends.
 
+Data Ingestion: Load raw data into HDFS, including car sales, services, customer demographics, and regional performance.
+Schema Design: Create Hive tables for structured storage (e.g., cars, sales, services, customers, regions).
+Data Processing:
+Clean and process data with HiveQL.
+Analyze car sales trends by model, region, and time.
+Study service patterns, customer feedback, and repeat visits.
+Insights Generation:
+Identify best-selling car models and profitable regions.
+Track customer preferences and seasonal sales trends.
+Optimize service operations based on usage patterns.
+Outcome: Deliver reports and visualizations for strategic planning in sales and services
